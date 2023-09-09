@@ -1,7 +1,7 @@
 
 
 <?php
-$destino= "gbarboza.es@gmail.com";
+$destino= "andres95monsalve@gmail.com";
 $nombre= $_POST["nombre"];
 $correo= $_POST["correo"];
 $telefono= $_POST["telefono"];
@@ -67,16 +67,6 @@ header("Location:contactos.html");
   		<p></p>
     		<input type="submit" value="Enviar" id="boton">
       </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      		
-      <br>		
-		<p class="info"><strong>¿Deseas un Sitio Web?</strong> Ponte en contacto con nosotros a través de este formulario.</p>
-
-	    <p class="info">Desarrollamos Sitios Web adaptables a cualquier dispositivo utilizando para ello <strong> HTML5, CSS3, Bootstrap, Javascript y JQuery</strong>. Visita nuestro canal !!! ahí podrás encontrar recusos sobre Diseño y Desarrollo Web.</p>
-	    
-      <img src="imagenes/img_contacto2.jpg" class="img-rounded img-responsive" alt="Placeholder image"> </div>
-    </div>
     
   </form>
   <br>
