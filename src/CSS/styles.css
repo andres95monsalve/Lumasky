@@ -8979,6 +8979,6 @@ button.close {
 .video-yt-principal {
   position: relative;
   margin: 10%;
-  z-index: 1;
+  z-index: 999;
   margin-top: -35%;
 }
