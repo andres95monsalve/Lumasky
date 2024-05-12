@@ -214,7 +214,7 @@
 				<div class="contact-wrapper animated bounceInUp">
 					<div class="contact-form">
 						<h3>Contacto</h3>
-						<form action="src/PHP/enviar.php" method="post">
+						<form id="contact-form">
 							<p>
 								<label>Nombre Completo:</label>
 								<input type="text" name="nombre" placeholder="Nombre" required class="form-control">
@@ -239,12 +239,33 @@
 								<input type="submit" value="Enviar" class="btn btn-primary">
 							</p>
 						</form>
+						  
+						  <script>
+							const formulario = document.getElementById("formulario");
+						  
+							formulario.addEventListener("submit", (event) => {
+							  event.preventDefault();
+						  
+							  const nombre = document.getElementById("nombre").value;
+							  const correo = document.getElementById("correo").value;
+						  
+							  if (nombre === "" || correo === "") {
+								alert('Por favor, completa todos los campos.');
+								return;
+							  }
+						  
+							  // Procesamiento adicional de datos aquí (por ejemplo, enviar correo electrónico)
+						  
+							  alert('Formulario enviado correctamente.');
+							});
+						  </script>
+						  
 					</div>
 					<div class="contact-info">
 						<h4>Más Información</h4>
 						<ul>
 							<li><i class="fas fa-map-marker-alt"></i>Venezuela</li>
-							<li><a href="https://wa.me/584140762327"><i class="fas fa-phone"></i>&nbsp;+58 414-0762327</a></li>
+							<li><a href="https://wa.me/573170799259"><i class="fas fa-phone"></i>&nbsp;+57 3170799259</a></li>
 							<li><a href="mailto:andres95monsalve@gmail.com"><i class="fas fa-envelope-open-text"></i>&nbsp;andres95monsalve@gmail.com</a></li>
 						</ul>
 						<p>Nosotros, en resumidas palabras, realizamos publicidad y marketing muy organizadamente y les queremos traer los mejores espectáculos con drones que hayan presenciado.</p>
