@@ -8975,3 +8975,10 @@ button.close {
 .box input[name="readmore"]:checked ~ .content::after{
   transform: translate(75%,55%) rotate(30deg);
 }
+
+.video-yt-principal {
+  position: relative;
+  margin: 10%;
+  z-index: 1;
+  margin-top: -35%;
+}
