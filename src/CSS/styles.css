@@ -26,7 +26,7 @@ body {
   #logo {
     position: absolute;
     top: 18%;
-    left: 15%;
+    left: 10%;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 150px;
@@ -193,13 +193,13 @@ figcaption {
     width: 100%;
     max-width: 100px;
     margin: 0 auto;
-    margin-left: 95px;
+    margin-left: 3.5%;
     margin-top: -20px;
   }
   
   .btn-traductor {
     display: inline-block;
-    margin: -50%;
+    margin: -40%;
     margin-top: -120%;
     padding: 3px 9px; /* se reduce el ancho del botón */
     color: white;
